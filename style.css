@@ -1,6 +1,6 @@
-*{
+/* *{
   outline: solid 1px red;
-}
+} */
 
 body{
   min-height: 100vh;
@@ -16,4 +16,12 @@ main{flex-grow: 1;
 }
 
 footer{
+}
+
+.img-auto{
+  height: auto;
+  width: 100%;
+}
+textarea{
+  resize: none;
 }
