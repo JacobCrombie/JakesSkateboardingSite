@@ -10,6 +10,7 @@ body{
 }
 
 header{
+  height: 10vh;
 }
 
 main{flex-grow: 1;
@@ -22,6 +23,34 @@ footer{
   height: auto;
   width: 100%;
 }
+.text-under{
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  text-shadow: 50%;
+}
+.text-over{
+  text-decoration-line: overline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+  text-shadow: 50%;
+}
 textarea{
   resize: none;
+}
+
+.hero-image {
+  background-image: url("heroimage.jpg");
+  height: 40vh;
+
+  background-size: cover;
+  background-position: center;
+}
+.border-left{
+  border-left-style: solid;
+  border-left-width: 5px !important;
+}
+.form-auto{
+  height: 80%;
+  width: 80%;
 }

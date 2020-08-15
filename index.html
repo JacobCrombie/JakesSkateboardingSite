@@ -11,62 +11,46 @@
 
 <body>
 
-  <main class="container-fluid">
+  <main class="container-fluid bg-secondary">
+    <div class="sticky-top">
+      <header class="row bg-primary">
+        <nav class="navbar navbar-expand navbar-light bg-faded">
+          <a class="font-weight-bold navbar-brand" href="#"><img class="img" src="skatelogo.png" width="40" height="40"
+              alt="Brand">Skateboarding</a>
+        </nav>
+      </header>
+    </div>
 
-    <header class="row bg-primary">
-      <nav class="navbar navbar-expand navbar-light bg-faded">
-        <a class="navbar-brand" href="#">Navbar</a>
-      </nav>
-    </header>
+    <section class="row hero-image">
 
-    <section class="row">
+      <h3 class="text-light col-12 text-weight-bold text-under mt-5">Join Our Mailing List</h3>
 
-      <h3 class="col-12">Form Title</h3>
-
-      <form class="col-12 col-md-3">
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Example select</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
+      <div class="card col-12 col-md-3 align-self-center">
+        <form class="text-dark bg-light">
+          <div class="form-group">
+            <label for="exampleFormControlInput1"><b>Email address</b></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </form>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"><b>Orientation</b></label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Goofy</option>
+              <option>Regular</option>
+            </select>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
 
-      <div class="col-md-9 d-none d-md-flex jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+
+      <div class="col-12 col-md-9 d-none d-md-flex">
+        <div class="container align-self-center text-light border-left border-primary">
+          <h1 class="text-weight-bold">Elevate Yourself</h1>
+          <h3 class="text-weight-bold text-over">There's nothing better than that feeling you get when you....</h3>
         </div>
       </div>
     </section>
@@ -95,7 +79,7 @@
     <section class="row">
 
       <div class=" col-12 col-md-3">
-        <img class="img-auto" src="//placehold.it/300x400" alt="">
+        <img class="img-auto" src="rodmullen.jpg" alt="">
       </div>
 
       <div class="jumbotron col-12 offset-md-1 col-md-8">
@@ -110,7 +94,7 @@
 
     <section class="row justify-content-around">
 
-      <div class="card col-12 col-md-3 order-md-2" >
+      <div class="card shadow p-3 my-1 my-md-3 bg-white rounded col-12 col-md-3 order-md-2">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <h6 class="card-subtitle mb-2 text-muted">Priority</h6>
@@ -121,7 +105,7 @@
         </div>
       </div>
 
-      <div class="card col-12 col-md-3 order-md-1" >
+      <div class="card shadow p-3 my-1 my-md-5 bg-white rounded col-12 col-md-3 order-md-1">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -133,7 +117,7 @@
       </div>
 
 
-      <div class="card col-12 col-md-3 order-md-3" >
+      <div class="card shadow p-3 my-1 my-md-5 bg-white rounded col-12 col-md-3 order-md-3">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -155,8 +139,11 @@
       </div>
     </section>
 
-    <footer class="row">
-      <p class="col-12 text-center">Footer</p>
+    <footer class="col-12 row">
+      <div class="col-12 justify-content-center d-flex flex-direction-row">
+        <p class="col-12 text-center"><a href="https://github.com/JacobCrombie"><img src="GitHub-Mark-32px.png"
+              alt="GitHub"></a>Made by: Jacob Crombie</p>
+      </div>
     </footer>
 
   </main>
