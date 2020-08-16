@@ -42,7 +42,7 @@ textarea{
 
 .hero-image {
   background-image: url("heroimage.jpg");
-  height: 40vh;
+  height: 60vh;
 
   background-size: cover;
   background-position: center;
@@ -55,3 +55,17 @@ textarea{
   height: 80%;
   width: 80%;
 }
+
+@media(min-width: 768px){
+  .card-rule{
+    position: absolute;
+    bottom: 0;
+    transform: translateY(45%);
+  }
+}
+@media(min-width: 768px){
+  .parent-rule{
+    position: relative;
+  }
+}
+
