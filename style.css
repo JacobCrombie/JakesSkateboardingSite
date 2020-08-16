@@ -7,17 +7,18 @@ body{
   display: flex;
   flex-direction:
   column;
+  font-family: 'Patua One', cursive;
 }
 
 header{
-  height: 10vh;
+  height: 100%;
 }
 
 main{flex-grow: 1;
 }
 
 footer{
-  height: 5vh;
+  height: 100%;
 }
 
 .img-auto{
@@ -42,8 +43,7 @@ textarea{
 
 .hero-image {
   background-image: url("heroimage.jpg");
-  height: 60vh;
-
+  height: 100%;
   background-size: cover;
   background-position: center;
 }
@@ -69,3 +69,7 @@ textarea{
   }
 }
 
+
+.card-font{
+  font-family: 'Rock Salt', cursive;
+}
